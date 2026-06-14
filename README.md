@@ -43,8 +43,19 @@ every push to `main`. To enable it:
 
 ## ⚠️ Placeholders to confirm
 
-The following values are placeholders — please confirm or replace them:
+- **Contact email:** `hello@aitla.org` (used in the "Get in touch" button) —
+  **still a placeholder, please confirm.**
 
-- **Contact email:** `hello@aitla.org` (used in the "Get in touch" button)
-- **LinkedIn URL:** `https://www.linkedin.com/company/aitla-trust-leadership/`
-  (used in the CTA and footer)
+Confirmed values now in use:
+
+- **LinkedIn:** `https://www.linkedin.com/company/aitla-ai/` (header-adjacent
+  Follow section, CTA and footer).
+
+## LinkedIn feed
+
+The home page has a dedicated **Follow on LinkedIn** section. A *live* LinkedIn
+post feed is intentionally **not** embedded: LinkedIn provides no free, official
+embed for company-page feeds, so a live feed would require a third-party widget
+(e.g. Elfsight, EmbedSocial, Taggbox) and an external script — at odds with this
+site being dependency-free. A clearly marked placeholder in `index.html`
+(`LIVE FEED PLACEHOLDER`) shows exactly where to drop such a widget if desired.
